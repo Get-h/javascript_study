@@ -69,3 +69,7 @@ if(false == false)
 let dictionary = { red: '빨간색', blue: '파란색'};
 
 console.log(dictionary);
+
+dictionary["red"] = 'ㅇㅇㅇ';
+
+console.log(dictionary);

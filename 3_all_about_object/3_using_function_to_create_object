@@ -1,0 +1,18 @@
+
+
+
+function IdolModel(name,year)
+{
+    this.name = name;
+    this.year = year;
+
+    this.dance = function()
+    {
+        return `${this.name} 이 춤을 춘다.`;
+    }
+}
+
+const testObject = new IdolModel('테스트오브젝트', 1994);
+
+console.log(testObject);
+console.log(testObject.dance());
