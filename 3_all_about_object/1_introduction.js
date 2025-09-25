@@ -18,6 +18,16 @@ function IdolFunction(name, year)
     this.sayHello = function()
     {
         console.log('안녕');
+        {
+            {
+                {
+
+                    {
+                        
+                    }
+                }
+            }
+        }
     }
 }
 
